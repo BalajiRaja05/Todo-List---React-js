@@ -10,17 +10,17 @@ function App() {
         {
             id:1,
             checked :true,
-            content:"practice coding today"
+            content:"Work Hard"
         },
         {
             id:2,
             checked :false,
-            content:"goto hospital"
+            content:"Keep focus"
         },
         {
             id:3,
             checked :false,
-            content:"relation marriage"
+            content:"You reach success"
         }
 ])
 
