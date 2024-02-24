@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  @apply bg-blue-950 
+}
+.section-1{
+  @apply   mt-2  bg-yellow-200 rounded-tl-xl rounded-tr-xl py-5 px-10 
+}
+.length{
+  @apply ml-auto mr-5 text-xs mt-1 text-red-800 font-semibold
+}
+.input{
+  @apply w-full h-10 px-5 rounded outline-none py-5
+}
+.h2-todo{
+  @apply text-3xl text-left font-semibold text-red-800 py-2
+}
+.add-btn{
+  @apply  ml-auto bg-red-900 text-white rounded-tr rounded-br h-10 px-10 py-1 relative right-5
+}
+.empty{
+  @apply py-5 text-center text-red-800 font-semibold
+}
