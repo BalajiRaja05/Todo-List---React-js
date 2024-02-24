@@ -5,24 +5,7 @@ import TodoHead from './TodoHead';
 import InputAddItem from './Components/InputAddItem';
 
 function App() {
-  const [items,setItems] =useState(
-    [
-        {
-            id:1,
-            checked :true,
-            content:"Work Hard"
-        },
-        {
-            id:2,
-            checked :false,
-            content:"Keep focus"
-        },
-        {
-            id:3,
-            checked :false,
-            content:"You reach success"
-        }
-])
+  const [items,setItems] =useState(JSON.parse(localStorage.getItem('todo_list')))
 
 const [newItem,setNewItem] = useState('')
 
